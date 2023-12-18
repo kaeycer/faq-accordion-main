@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --main-font: "Work Sans", sans-serif;
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -12,3 +15,24 @@
     color: hsl(228, 45%, 44%); 
 }
 
+body{
+    background: hsl(275, 100%, 97%);
+    font-family: var(--main-font);
+}
+
+
+
+dt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+    padding: 2rem;
+    margin: 20%;
+}
