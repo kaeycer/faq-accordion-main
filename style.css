@@ -5,6 +5,7 @@
 }
 :root{
     --main-font: "Work Sans", sans-serif;
+    --color: #000;
 }
 
 .attribution { 
@@ -22,10 +23,14 @@ body{
 
 
 
-dt{
+.questionWrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    color: var(--color);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    margin-left: 0.2rem;
 }
 
 .container{
@@ -35,4 +40,47 @@ dt{
     background: hsl(0, 0%, 100%);
     padding: 2rem;
     margin: 20%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.star{
+    content: url("./assets/images/icon-star.svg");
+    width: 1rem;
+    background-size: contain;
+    margin-right: 5%;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+hr{
+    margin-top: 1.5rem;
+}
+
+button{
+    border-radius: 60%;
+    border: none;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: #fff;
+}
+
+box-icon{
+    position: relative;
+    top: -1.1vh;
+    left: -1.1vh;
+}
+
+.text{
+    visibility: hidden;
+    height: 0;
+    margin-bottom: -10vh;
 }
