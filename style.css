@@ -73,12 +73,6 @@ button{
     background-color: #fff;
 }
 
-box-icon{
-    position: relative;
-    top: -1.1vh;
-    left: -1.1vh;
-}
-
 .text{
     visibility: hidden;
     height: 0;
